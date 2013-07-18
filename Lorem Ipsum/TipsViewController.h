@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  TipsViewController.h
 //  Lorem Ipsum
 //
 //  Created by Adil Soomro on 18/07/2013.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface TipsViewController : UIViewController
 
 @end

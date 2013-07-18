@@ -1,25 +1,25 @@
 //
-//  SecondViewController.m
+//  FirstViewController.m
 //  Lorem Ipsum
 //
 //  Created by Adil Soomro on 18/07/2013.
 //  Copyright (c) 2013 Shahid Nasrullah. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "HomeViewController.h"
 
-@interface SecondViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation HomeViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+        self.title = NSLocalizedString(@"First", @"First");
+        self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
 }

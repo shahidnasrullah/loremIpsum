@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885763D41797D7F40028130C /* CompanyDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885763D21797D7F40028130C /* CompanyDetailController.m */; };
+		885763D51797D7F40028130C /* CompanyDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885763D31797D7F40028130C /* CompanyDetailController.xib */; };
 		88B5D06D1797BD4E00F602BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B5D06C1797BD4E00F602BF /* UIKit.framework */; };
 		88B5D06F1797BD4E00F602BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B5D06E1797BD4E00F602BF /* Foundation.framework */; };
 		88B5D0711797BD4E00F602BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B5D0701797BD4E00F602BF /* CoreGraphics.framework */; };
@@ -16,17 +18,29 @@
 		88B5D07F1797BD4E00F602BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D07E1797BD4E00F602BF /* Default.png */; };
 		88B5D0811797BD4E00F602BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0801797BD4E00F602BF /* Default@2x.png */; };
 		88B5D0831797BD4E00F602BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0821797BD4E00F602BF /* Default-568h@2x.png */; };
-		88B5D0861797BD4E00F602BF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D0851797BD4E00F602BF /* FirstViewController.m */; };
+		88B5D0861797BD4E00F602BF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D0851797BD4E00F602BF /* HomeViewController.m */; };
 		88B5D0881797BD4E00F602BF /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0871797BD4E00F602BF /* first.png */; };
 		88B5D08A1797BD4E00F602BF /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0891797BD4E00F602BF /* first@2x.png */; };
-		88B5D08D1797BD4F00F602BF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D08C1797BD4F00F602BF /* SecondViewController.m */; };
+		88B5D08D1797BD4F00F602BF /* CreateNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D08C1797BD4F00F602BF /* CreateNewViewController.m */; };
 		88B5D08F1797BD4F00F602BF /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D08E1797BD4F00F602BF /* second.png */; };
 		88B5D0911797BD4F00F602BF /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0901797BD4F00F602BF /* second@2x.png */; };
-		88B5D0941797BD4F00F602BF /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0921797BD4F00F602BF /* FirstViewController.xib */; };
-		88B5D0971797BD4F00F602BF /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0951797BD4F00F602BF /* SecondViewController.xib */; };
+		88B5D0941797BD4F00F602BF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0921797BD4F00F602BF /* HomeViewController.xib */; };
+		88B5D0971797BD4F00F602BF /* CreateNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0951797BD4F00F602BF /* CreateNewViewController.xib */; };
+		88B5D0A01797BD7F00F602BF /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D09E1797BD7F00F602BF /* RegisterViewController.m */; };
+		88B5D0A11797BD7F00F602BF /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D09F1797BD7F00F602BF /* RegisterViewController.xib */; };
+		88B5D0A51797C1A800F602BF /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D0A31797C1A800F602BF /* ListViewController.m */; };
+		88B5D0A61797C1A800F602BF /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0A41797C1A800F602BF /* ListViewController.xib */; };
+		88B5D0AA1797C1DF00F602BF /* TipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D0A81797C1DF00F602BF /* TipsViewController.m */; };
+		88B5D0AB1797C1DF00F602BF /* TipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0A91797C1DF00F602BF /* TipsViewController.xib */; };
+		88B5D0AF1797C47200F602BF /* CompanyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D0AE1797C47200F602BF /* CompanyCell.m */; };
+		88B5D0B11797C48100F602BF /* CompanyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5D0B01797C48100F602BF /* CompanyCell.xib */; };
+		88B5D0B41797C5B300F602BF /* DTCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5D0B31797C5B300F602BF /* DTCompany.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		885763D11797D7F40028130C /* CompanyDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDetailController.h; sourceTree = "<group>"; };
+		885763D21797D7F40028130C /* CompanyDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDetailController.m; sourceTree = "<group>"; };
+		885763D31797D7F40028130C /* CompanyDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyDetailController.xib; sourceTree = "<group>"; };
 		88B5D0681797BD4E00F602BF /* Lorem Ipsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lorem Ipsum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B5D06C1797BD4E00F602BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88B5D06E1797BD4E00F602BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,16 +54,30 @@
 		88B5D07E1797BD4E00F602BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		88B5D0801797BD4E00F602BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		88B5D0821797BD4E00F602BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		88B5D0841797BD4E00F602BF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		88B5D0851797BD4E00F602BF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		88B5D0841797BD4E00F602BF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		88B5D0851797BD4E00F602BF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		88B5D0871797BD4E00F602BF /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		88B5D0891797BD4E00F602BF /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		88B5D08B1797BD4F00F602BF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		88B5D08C1797BD4F00F602BF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		88B5D08B1797BD4F00F602BF /* CreateNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateNewViewController.h; sourceTree = "<group>"; };
+		88B5D08C1797BD4F00F602BF /* CreateNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateNewViewController.m; sourceTree = "<group>"; };
 		88B5D08E1797BD4F00F602BF /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		88B5D0901797BD4F00F602BF /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		88B5D0931797BD4F00F602BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		88B5D0961797BD4F00F602BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		88B5D0931797BD4F00F602BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeViewController.xib; sourceTree = "<group>"; };
+		88B5D0961797BD4F00F602BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CreateNewViewController.xib; sourceTree = "<group>"; };
+		88B5D09D1797BD7F00F602BF /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		88B5D09E1797BD7F00F602BF /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		88B5D09F1797BD7F00F602BF /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		88B5D0A21797C1A800F602BF /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		88B5D0A31797C1A800F602BF /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		88B5D0A41797C1A800F602BF /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		88B5D0A71797C1DF00F602BF /* TipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsViewController.h; sourceTree = "<group>"; };
+		88B5D0A81797C1DF00F602BF /* TipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsViewController.m; sourceTree = "<group>"; };
+		88B5D0A91797C1DF00F602BF /* TipsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipsViewController.xib; sourceTree = "<group>"; };
+		88B5D0AD1797C47200F602BF /* CompanyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyCell.h; sourceTree = "<group>"; };
+		88B5D0AE1797C47200F602BF /* CompanyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyCell.m; sourceTree = "<group>"; };
+		88B5D0B01797C48100F602BF /* CompanyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyCell.xib; sourceTree = "<group>"; };
+		88B5D0B21797C5B200F602BF /* DTCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCompany.h; sourceTree = "<group>"; };
+		88B5D0B31797C5B300F602BF /* DTCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCompany.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,19 +124,33 @@
 		88B5D0721797BD4E00F602BF /* Lorem Ipsum */ = {
 			isa = PBXGroup;
 			children = (
+				88B5D0B51797C5B700F602BF /* Data Model */,
+				88B5D0AC1797C45800F602BF /* Custom Cells */,
 				88B5D07B1797BD4E00F602BF /* AppDelegate.h */,
 				88B5D07C1797BD4E00F602BF /* AppDelegate.m */,
-				88B5D0841797BD4E00F602BF /* FirstViewController.h */,
-				88B5D0851797BD4E00F602BF /* FirstViewController.m */,
+				88B5D0841797BD4E00F602BF /* HomeViewController.h */,
+				88B5D0851797BD4E00F602BF /* HomeViewController.m */,
 				88B5D0871797BD4E00F602BF /* first.png */,
 				88B5D0891797BD4E00F602BF /* first@2x.png */,
-				88B5D08B1797BD4F00F602BF /* SecondViewController.h */,
-				88B5D08C1797BD4F00F602BF /* SecondViewController.m */,
+				88B5D08B1797BD4F00F602BF /* CreateNewViewController.h */,
+				88B5D08C1797BD4F00F602BF /* CreateNewViewController.m */,
 				88B5D08E1797BD4F00F602BF /* second.png */,
 				88B5D0901797BD4F00F602BF /* second@2x.png */,
-				88B5D0921797BD4F00F602BF /* FirstViewController.xib */,
-				88B5D0951797BD4F00F602BF /* SecondViewController.xib */,
+				88B5D0921797BD4F00F602BF /* HomeViewController.xib */,
+				88B5D0951797BD4F00F602BF /* CreateNewViewController.xib */,
 				88B5D0731797BD4E00F602BF /* Supporting Files */,
+				88B5D09D1797BD7F00F602BF /* RegisterViewController.h */,
+				88B5D09E1797BD7F00F602BF /* RegisterViewController.m */,
+				88B5D09F1797BD7F00F602BF /* RegisterViewController.xib */,
+				88B5D0A21797C1A800F602BF /* ListViewController.h */,
+				88B5D0A31797C1A800F602BF /* ListViewController.m */,
+				88B5D0A41797C1A800F602BF /* ListViewController.xib */,
+				88B5D0A71797C1DF00F602BF /* TipsViewController.h */,
+				88B5D0A81797C1DF00F602BF /* TipsViewController.m */,
+				88B5D0A91797C1DF00F602BF /* TipsViewController.xib */,
+				885763D11797D7F40028130C /* CompanyDetailController.h */,
+				885763D21797D7F40028130C /* CompanyDetailController.m */,
+				885763D31797D7F40028130C /* CompanyDetailController.xib */,
 			);
 			path = "Lorem Ipsum";
 			sourceTree = "<group>";
@@ -125,6 +167,25 @@
 				88B5D0821797BD4E00F602BF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88B5D0AC1797C45800F602BF /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				88B5D0AD1797C47200F602BF /* CompanyCell.h */,
+				88B5D0AE1797C47200F602BF /* CompanyCell.m */,
+				88B5D0B01797C48100F602BF /* CompanyCell.xib */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		88B5D0B51797C5B700F602BF /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				88B5D0B21797C5B200F602BF /* DTCompany.h */,
+				88B5D0B31797C5B300F602BF /* DTCompany.m */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,8 +247,13 @@
 				88B5D08A1797BD4E00F602BF /* first@2x.png in Resources */,
 				88B5D08F1797BD4F00F602BF /* second.png in Resources */,
 				88B5D0911797BD4F00F602BF /* second@2x.png in Resources */,
-				88B5D0941797BD4F00F602BF /* FirstViewController.xib in Resources */,
-				88B5D0971797BD4F00F602BF /* SecondViewController.xib in Resources */,
+				88B5D0941797BD4F00F602BF /* HomeViewController.xib in Resources */,
+				88B5D0971797BD4F00F602BF /* CreateNewViewController.xib in Resources */,
+				88B5D0A11797BD7F00F602BF /* RegisterViewController.xib in Resources */,
+				88B5D0A61797C1A800F602BF /* ListViewController.xib in Resources */,
+				88B5D0AB1797C1DF00F602BF /* TipsViewController.xib in Resources */,
+				88B5D0B11797C48100F602BF /* CompanyCell.xib in Resources */,
+				885763D51797D7F40028130C /* CompanyDetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +266,14 @@
 			files = (
 				88B5D0791797BD4E00F602BF /* main.m in Sources */,
 				88B5D07D1797BD4E00F602BF /* AppDelegate.m in Sources */,
-				88B5D0861797BD4E00F602BF /* FirstViewController.m in Sources */,
-				88B5D08D1797BD4F00F602BF /* SecondViewController.m in Sources */,
+				88B5D0861797BD4E00F602BF /* HomeViewController.m in Sources */,
+				88B5D08D1797BD4F00F602BF /* CreateNewViewController.m in Sources */,
+				88B5D0A01797BD7F00F602BF /* RegisterViewController.m in Sources */,
+				88B5D0A51797C1A800F602BF /* ListViewController.m in Sources */,
+				88B5D0AA1797C1DF00F602BF /* TipsViewController.m in Sources */,
+				88B5D0AF1797C47200F602BF /* CompanyCell.m in Sources */,
+				88B5D0B41797C5B300F602BF /* DTCompany.m in Sources */,
+				885763D41797D7F40028130C /* CompanyDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,20 +288,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		88B5D0921797BD4F00F602BF /* FirstViewController.xib */ = {
+		88B5D0921797BD4F00F602BF /* HomeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				88B5D0931797BD4F00F602BF /* en */,
 			);
-			name = FirstViewController.xib;
+			name = HomeViewController.xib;
 			sourceTree = "<group>";
 		};
-		88B5D0951797BD4F00F602BF /* SecondViewController.xib */ = {
+		88B5D0951797BD4F00F602BF /* CreateNewViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				88B5D0961797BD4F00F602BF /* en */,
 			);
-			name = SecondViewController.xib;
+			name = CreateNewViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -325,6 +397,7 @@
 				88B5D09C1797BD4F00F602BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

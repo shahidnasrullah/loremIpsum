@@ -8,9 +8,10 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
+#import "HomeViewController.h"
 
-#import "SecondViewController.h"
+#import "CreateNewViewController.h"
+#import "RegisterViewController.h"
 
 @implementation AppDelegate
 
@@ -18,11 +19,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
-    self.window.rootViewController = self.tabBarController;
+    RegisterViewController * registerController = [[RegisterViewController alloc] initWithNibName:@"RegisterViewController" bundle:nil];
+    UINavigationController * navController = [[UINavigationController alloc] initWithRootViewController:registerController];
+    navController.navigationBarHidden = YES;
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }

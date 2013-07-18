@@ -1,33 +1,32 @@
 //
-//  FirstViewController.m
+//  CompanyDetailController.m
 //  Lorem Ipsum
 //
 //  Created by Adil Soomro on 18/07/2013.
 //  Copyright (c) 2013 Shahid Nasrullah. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "CompanyDetailController.h"
 
-@interface FirstViewController ()
+@interface CompanyDetailController ()
 
 @end
 
-@implementation FirstViewController
+@implementation CompanyDetailController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        // Custom initialization
     }
     return self;
 }
-							
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning
